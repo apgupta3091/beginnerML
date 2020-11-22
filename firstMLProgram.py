@@ -1,4 +1,5 @@
 from sklearn import tree
+<<<<<<< HEAD
 
 #features = [[140, "smooth"], [130, "smooth"], [150, "bumpy"], [170, "bumpy"]]
 #labels = [ "apple", "apple", "orange", "orange" ]
@@ -7,10 +8,17 @@ from sklearn import tree
 features = [[140, 1], [130, 1], [150, 0], [170, 0], [250, 2], [275, 2]]
 # 0 = apple, 1 = orange, 2 = pineapple
 labels = [0, 0, 1, 1, 2, 2]
+=======
+"""
+[weight, 1 = smooth, 0 = bumpy]
+0 = apple, 1 = orange
+"""
+features = [[140, 1], [130, 1], [150, 0], [170, 0]]
+labels = [0, 0, 1, 1]
+>>>>>>> 356188269b0ddc4574e90d668a5043819dc5623e
 
 clf = tree.DecisionTreeClassifier()
 clf = clf.fit(features, labels)
-
 #guessFruit = prediction value 1/0, 1 is an orange, 0 is an apple
 guessFruit = (clf.predict([[260, 0]]))
 
