@@ -8,9 +8,9 @@ from sklearn import tree
 >>>>>>> 6d6a357946e35446cbd8fd2eea36e217c5ab09de
 
 #[weight, 2 = sharp, 1 = smooth, 0 = bumpy]
-features = [[140, 1], [130, 1], [150, 0], [170, 0], [250, 2], [275, 2]]
-# 0 = apple, 1 = orange, 2 = pineapple
-labels = [0, 0, 1, 1, 2, 2]
+features = [[140, 1], [130, 1], [150, 0], [170, 0], [250, 2], [275, 2], [60, 1], [50, 1]]
+# 0 = apple, 1 = orange, 2 = pineapple, 3 = Grape
+labels = [0, 0, 1, 1, 2, 2, 3, 3]
 
 clf = tree.DecisionTreeClassifier()
 clf = clf.fit(features, labels)
