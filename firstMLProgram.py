@@ -1,11 +1,11 @@
 from sklearn import tree
 
 #features = [[140, "smooth"], [130, "smooth"], [150, "bumpy"], [170, "bumpy"]]
-<<<<<<< HEAD
+
 #labels = [ "apple", "apple", "orange", "orange", "pineapple", "pineapple", "Grape", "Grape"]
-=======
+
 #labels = [ "apple", "apple", "orange", "orange", "pineapple", "pineapple" ]
->>>>>>> 6d6a357946e35446cbd8fd2eea36e217c5ab09de
+
 
 #[weight, 2 = sharp, 1 = smooth, 0 = bumpy]
 features = [[140, 1], [130, 1], [150, 0], [170, 0], [250, 2], [275, 2], [60, 1], [50, 1]]
