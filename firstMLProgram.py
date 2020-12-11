@@ -14,7 +14,7 @@ labels = [0, 0, 1, 1, 2, 2, 3, 3]
 
 clf = tree.DecisionTreeClassifier()
 clf = clf.fit(features, labels)
-#guessFruit = prediction value 1/0, 1 is an orange, 0 is an apple
+#guessFruit = prediction value 1/0, 1 is an orange, 0 is an apple, 2 is a pneapple, 3 is a grape
 guessFruit = (clf.predict([[60, 1]]))
 
 #if guessFruit == [1] then print fruit is an Orange
