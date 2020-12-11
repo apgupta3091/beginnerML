@@ -26,6 +26,6 @@ elif guessFruit == [0]:
 # else if print the fruit is a pineapple
 elif guessFruit == [2]:
     print("The Program predicts that the fruit as a Pineapple!")
-# else print the fruit is a grape
+# else print the fruit is a Grape
 else:
     print("The Program predicts that the fruit is a Grape!")
